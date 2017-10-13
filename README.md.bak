@@ -1,6 +1,4 @@
-## 안녕하세요. NS홈쇼핑의 기술블로그 입니다.
-
-
+## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/nsshopping/nsshopping.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
