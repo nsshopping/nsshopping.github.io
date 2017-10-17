@@ -1,1 +1,15 @@
-theme: jekyll-theme-midnight
+title: NS홈쇼핑 기술 블로그
+email: platform@nsmall.com
+description: |
+  건강한 아이디어
+baseurl: ''
+url: 'https://nsshopping.github.io/'
+timezone: Asia/Seoul 
+
+repository: nsshopping/nsshopping.github.io
+
+permalink: /:year/:month/:day/:title/
+
+excerpt_separator: <!--more-->
+
+
