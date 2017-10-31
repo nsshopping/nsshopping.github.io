@@ -1,0 +1,78 @@
+#Site settings
+title: 김병철 기술 블로그
+email: skyksit@gmail.com
+description: |
+  새롭게 지속적인 변화에 맞추어 유연한 생각과 태도로 변화를 수용합니다.
+baseurl: ''
+url: 'http://192.168.232.70:4000'
+timezone: Asia/Seoul
+
+encoding: utf-8
+highlighter: rouge
+#highlighter: pygments
+
+repository: skyksit/skyksit.github.io
+
+permalink: /:year/:month/:day/:title/
+
+excerpt_separator: <!--more-->
+
+# Build settings
+markdown: kramdown
+
+sass:
+  add_charset: true
+
+krandown:
+  input: GFM
+  highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+
+# paging
+paginate: 10
+paginate_path: '/page/:num/'
+
+collections:
+  authors:
+    output: true
+    permalink: /authors/:path/
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: authors
+    values:
+      layout: author
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+keep_files: [assets, files]
+github: [metadata]
+# skyksit's custom
+author: skyksit@gmail.com
+image: '/assets/images/default_blog_cover.jpg'
+asset_url: /assets
+
+#google_analytics:
+#  ua: 'UA-108295858-1'
+facebook:
+  username: byeongcheol.kim
+google_plus:
+  username: skyksit
+github_url:
+  username: skyksit
+google_tag:
+  ua: GTM-NZ7M7K3
+
+# Disqus
+discus-identifier: skyksit-github-io # add your discus identifier
