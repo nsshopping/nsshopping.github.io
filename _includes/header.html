@@ -9,7 +9,7 @@
         <span class="sr-only">Toggle Search Form</span>
     </button>
     <a id="logo" href="/">
-        <span class="sr-only">KakaoTech</span>
+        <span class="sr-only">Tech Note</span>
     </a>
     <div id="search">
         <input id="search-input" type="search" placeholder="Search..." value="" />
@@ -18,10 +18,10 @@
 
     <ul id="menu" class="nav">
         <li class="{% if page.url != '/opensource/' and page.url != '/openapi/' and page.url != '/events/' and page.url != '/about/' %} active {% endif %}"><a href="{{ base_path }}/">Blog</a></li>
-        <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">About Me</a></li>
+        <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">About NS</a></li>
+        <li class="{% if page.url == '/openapi/' %} active {% endif %}"><a href="{{ base_path }}/openapi/">오픈API</a></li>
 <!--
         <li class="{% if page.url == '/opensource/' %} active {% endif %}"><a href="{{ base_path }}/opensource/">오픈소스</a></li>
-        <li class="{% if page.url == '/openapi/' %} active {% endif %}"><a href="{{ base_path }}/openapi/">오픈API</a></li>
         <li class="{% if page.url == '/events/' %} active {% endif %}"><a href="{{ base_path }}/events/">기술행사</a></li>
 -->
     </ul>
