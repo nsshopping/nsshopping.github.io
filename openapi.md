@@ -8,4 +8,4 @@ sitemap: yes
 ---
 
 # OPEN-API
-* [제휴용 API] (https://github.com/nsshopping/Affilicte-API)
+* [제휴용 API](https://github.com/nsshopping/Affilicte-API)
