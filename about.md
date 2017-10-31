@@ -1,37 +1,20 @@
 ---
 layout: page
-title: About Me
+title: About
 permalink: /about/
 image: /files/covers/blog2.jpg
 tags: [about]
 sitemap: yes
 ---
 
-# Profile
+# NS쇼핑
+NS쇼핑은 '삶의 가치 창출과 행복나눔'을 사명으로 고객의 건강과 행복, 나아가 국가와 사회 발전에 공헌하기 위한 기업의 사회적 책임을 성실히 이행하는 명문기업 입니다.
 
-* Name : 김병철 (KIM BYOUNG-CHUL)
+## 핵심가치
+신뢰
 
-* Date of birth : January 25, 1976
+## 인재상
+원칙과 혼을 담아 일하는 사람
 
-* Address : Jungnang-gu, Seoul, Republic of Korea
-
-* Email : skyksit@gmail.com
-
-* Phone : +82 (10) 4321-0721
-
-* Website : [blog.naver.com/skykbc](http://blog.naver.com/skykbc)
-
-
-# EXPERIENCE
-
-
-
-# EDUCATION
-
-# SKILLS
-
->## PROGRAMMING SKILLS
->
->## OFFICE SKILLS
->
->## LANGUAGE SKILLS
+## 조직문화
+창조와 도전
