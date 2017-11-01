@@ -61,6 +61,7 @@ github: [metadata]
 #custom
 author: skyksit@nsmall.com
 image: '/assets/images/default_blog_cover.jpg'
+ogimage: '/assets/images/default_blog_ogimage.jpg'
 asset_url: /assets
 
 #google_analytics:
