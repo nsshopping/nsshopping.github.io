@@ -1,17 +1,17 @@
 #Site settings
-title: NS쇼핑 기술 블로그
-email: skyksit@nsmall.com
+title: tech note PBADA
+email: cyon365@gmall.com
 description: |
-  삶의 가치 창출과 행복나눔
+   Step by step
 baseurl: ''
-url: 'http://nsshopping.github.io'
+url: 'http://pbada.github.io'
 timezone: Asia/Seoul
 
 encoding: utf-8
 highlighter: rouge
 #highlighter: pygments
 
-repository: nsshopping/nsshopping.github.io
+repository: pbada/pbada.github.io
 
 permalink: /:year/:month/:day/:title/
 
@@ -59,7 +59,7 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 keep_files: [assets, files]
 github: [metadata]
 #custom
-author: skyksit@nsmall.com
+author: cyon365@gmall.com
 image: '/assets/images/default_blog_cover.jpg'
 ogimage: '/assets/images/default_blog_ogimage.jpg'
 asset_url: /assets
@@ -67,11 +67,11 @@ asset_url: /assets
 #google_analytics:
 #  ua: 'UA-108295858-1'
 facebook:
-  username: NSshopping
+  username: pbada
 #google_plus:
 #  username:
 github_url:
-  username: nsshopping
+  username: pbada
 google_tag:
   ua: GTM-NZ7M7K3
 
