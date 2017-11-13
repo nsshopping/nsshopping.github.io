@@ -304,10 +304,6 @@ for small screen(<720px):
     overflow-x: scroll; /* @@iolo for very long title/tags */
 }
 
-#content {
-    background-color: #fff;
-}
-
 #back-to-top {
     display: none; /* @@iolo: show/hide by js */
     position: fixed;
