@@ -1,6 +1,5 @@
 //Main Random tile 
 if($('body').hasClass('home-template')){
-    alert('aaa')
     var postWrap = $('#post-list');
     var postIdx = $('#post-list').find('.post-item');
     var postLeng = postIdx.length;     
