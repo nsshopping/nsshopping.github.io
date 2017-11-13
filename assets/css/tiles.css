@@ -1,3 +1,10 @@
 @charset "UTF-8";\
 
-body {;}
+#content {background-color:none}
+#home-content {}
+#post-list {position:relative;height: 910px}
+#post-list .post-item {position:absolute; margin:0px; padding:10px; border-bottom:0px;}
+#post-list .tile_1 {left:620px; top:0px; width:310px; height: 310px; background-color:#f1f1f1;}
+#post-list .tile_2 {left:0px; top:620px; width:620px; height: 310px; background-color:#e1e1e1;}
+#post-list .tile_3 {left:620px; top:310px; width:310px; height: 620px; background-color:#d1d1d1;}
+#post-list .tile_4 {left:0px; top:0px; width:620px; height: 620px; background-color:#b1b1b1; }
