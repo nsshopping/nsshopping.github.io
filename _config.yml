@@ -31,7 +31,7 @@ plugins:
   - jekyll-paginate
 
 # paging
-paginate: 10
+paginate: 4
 paginate_path: '/page/:num/'
 
 collections:
