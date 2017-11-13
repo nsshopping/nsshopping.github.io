@@ -26,5 +26,5 @@ if($('body').hasClass('home-template')){
         })
 
     }
-    randomBackground(1, 4, postLeng);//Min, Max, Choice
+    randomBackground(1, postLeng, postLeng);//Min, Max, Choice
 }
