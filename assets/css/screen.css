@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+html {min-width:320px; overflow-x:hidden}
 body {
     font-family: sans-serif;
     font-weight: 300; /* @@iolo 200 -> 300, 200 for retina only! */
@@ -223,24 +224,25 @@ for small screen(<720px):
     margin: 0;
     border-bottom: 1px solid #e6e6e6;
     color: #505050;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 55px; /* 55px = 60(height) - 5(border) */
 }
 
 #menu > li > a {
     padding: 0 16px;
+    font-weight: 300;
 }
 
 #menu > li.active,
 #menu > li:hover {
-    border-bottom: 1px solid #1e1e1e;
-    color: #1e1e1e;
-    font-weight: 400;
+    border-bottom: 2px solid #F48024;
+    color: #535a60;
+    font-weight: normal;
 }
 
 #menu > li.active > a,
 #menu > li:hover > a {
-    color: #1e1e1e;
+    color: #535a60;
 }
 
 #search {
@@ -307,7 +309,7 @@ for small screen(<720px):
     padding-top:60px;
     padding-bottom: 50px;
     background-color: #f4f4f4;
-    overflow-x: scroll; /* @@iolo for very long title/tags */
+    
     background: url(../images/bg_patten.png) repeat left top;
 }
 
@@ -326,7 +328,7 @@ for small screen(<720px):
 #back-to-top.static {
     position: static;
     float: right;
-    margin-top: 51px; /* 51px = 100(content-footer-spacing) - 29(self height) - 20(bottom) */
+    margin-top: 1px; /* 51px = 100(content-footer-spacing) - 29(self height) - 20(bottom) */
     margin-right: 30px;
 }
 
@@ -1159,7 +1161,7 @@ body.page-template {
 
 /* minimal responsive stuff by @@iolo */
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
     .visible-sm, .hidden-lg {
         display: none !important;
     }
@@ -1173,11 +1175,13 @@ body.page-template {
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
     .visible-lg, .hidden-sm {
         display: none !important;
     }
-
+    #wrapper {
+    padding-top:50px;
+}
     /* header */
     #header {
         height: 50px;
@@ -1248,14 +1252,13 @@ body.page-template {
     }
 
     #search {
+         display: none; /* @@iolo: show/hide by js */
         position: absolute;
-        z-index: 99;
-        top: 0;
-        right: 30px;
-        height: 57px;
-        margin: 0;
-        padding: 0;
-        line-height: 57px;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        text-align: center;
     }
 
     #search > input {
