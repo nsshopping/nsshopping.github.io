@@ -1,5 +1,7 @@
 @charset "UTF-8";\
 
+html {overflow-y:hidden}
+
 /*.home-template #post-list {position:relative;height: 920px}
 .home-template #post-list .post-item {position:absolute; margin:0px; padding:10px; border-bottom:0px;background-color:#e1e1e1;}
 .home-template #post-list .tile_1 {left: 630px;top:0px;width:310px;height: 310px;}
@@ -13,3 +15,21 @@
 .home-template #post-list .post-item {overflow: hidden;width:224px;height: 280px;margin:7px;padding: 21px 14px 10px;-webkit-box-shadow: 0 1px 1px #b9b9b9;-moz-box-shadow: 0 1px 1px #b9b9b9;box-shadow: 0 1px 1px #b9b9b9;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;background-color: #fff;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .home-template #post-list .item-wrap {position:relative; height: 100%;}
 .home-template #post-list .item-wrap .link {display: inline-block; width:100%;}
+
+
+.home-template #post-list .post-item {width:224px;}
+@media only screen and (max-width: 1024px) {
+    .container{max-width:714px}
+    .home-template #post-list .post-item {width:224px; }
+}
+
+@media only screen and (max-width: 732px) {
+    .container{max-width:476px}
+    .home-template #post-list .post-item {width:224px;}
+}
+
+@media only screen and (max-width: 492px) {
+    .container{max-width:100%; margin-left:1.5%;margin-right:1.5%;}
+    .home-template #post-list .post-item {width:47%;margin-left:1.5%;margin-right:1.5%;}
+}
+
