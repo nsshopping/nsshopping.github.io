@@ -574,14 +574,20 @@ for small screen(<720px):
     overflow: hidden;
 }
 
+.home-template #post-list .post-info {
+    margin-top:8px;
+    font-size:11px;
+    text-align: left;
+}
+
 #post-list .post-excerpt {
     margin-top: 11px;
     font-size: 11px;
     line-height: 20px; /* 20px = 11(font-size) + 9(line-spacing) */
     display: block;
-    height: 160px; /* 2 lines */
+    height: 140px; /* 2 lines */
     display: -webkit-box; /* multi-line ellipsis */
-    -webkit-line-clamp: 8;
+    -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -617,16 +623,17 @@ for small screen(<720px):
 }
 
 #post-list .post-date {
-    margin: 6px 0 0 0;
-    font-size: 12px;
-    text-align: center;
+    margin: 0;
+    font-size: 11px;
+    text-align: left;
+    line-height: 170%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
 
 #post-list .post-tags {
-    margin-top: 18px;
+    margin-top: 4px;
 }
 
 a.tag {
