@@ -181,11 +181,18 @@ for small screen(<720px):
 
 /* header */
 
-#header {
-    margin: 0;
-    padding: 0;
-    border-bottom: 1px solid #e6e6e6;
-    background-color: #fff;
+#header{
+    position: fixed;
+    border-top: 3px solid #F48024;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.15), 0 0 0 transparent, 0 0 0 transparent, 0 0 0 transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fafafb;
+    transition: box-shadow cubic-bezier(.165, .84, .44, 1) .25s;
+    height: 60px;
+    box-sizing: border-box;
 }
 
 #logo {
@@ -217,7 +224,7 @@ for small screen(<720px):
     border-bottom: 1px solid #e6e6e6;
     color: #505050;
     font-size: 15px;
-    line-height: 59px; /* 59px = 60(height) - 1(border) */
+    line-height: 55px; /* 55px = 60(height) - 5(border) */
 }
 
 #menu > li > a {
@@ -297,6 +304,7 @@ for small screen(<720px):
 }
 
 #wrapper {
+    padding-top:60px;
     padding-bottom: 50px;
     background-color: #f4f4f4;
     overflow-x: scroll; /* @@iolo for very long title/tags */
@@ -1224,9 +1232,11 @@ body.page-template {
         border-bottom: none;
     }
 
-    #menu > li.active, #menu > li:hover {
-        border-bottom: none;
-        background-color: #f4f4f4;
+    #menu > li.active,
+    #menu > li:hover {
+        border-bottom: 2px solid #F48024;
+        color: #1e1e1e;
+        font-weight: 400;
     }
 
     #menu > li > a {
@@ -1234,13 +1244,14 @@ body.page-template {
     }
 
     #search {
-        display: none; /* @@iolo: show/hide by js */
         position: absolute;
-        top: 50px;
-        left: 0;
-        width: 100%;
-        background: #fff;
-        text-align: center;
+        z-index: 99;
+        top: 0;
+        right: 30px;
+        height: 57px;
+        margin: 0;
+        padding: 0;
+        line-height: 57px;
     }
 
     #search > input {
