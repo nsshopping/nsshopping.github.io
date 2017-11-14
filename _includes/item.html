@@ -7,7 +7,7 @@
          <div class="post-info">
             <p class="post-date">{{ post.date | date: '%Y-%m-%d %H:%M' }}</p>
             {% if site.discus-identifier %}
-             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
+             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}" href="comment-info"></a>
             {% endif %}
         </div>
         <p class="post-tags">
