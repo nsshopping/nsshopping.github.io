@@ -606,7 +606,7 @@ for small screen(<720px):
 }
 
 #post-list .author-name {
-    margin: 12px 0 0 0;
+    margin: 0
     font-size: 14px;
     color: #1e1e1e;
     text-align: center;
