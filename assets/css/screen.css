@@ -798,7 +798,7 @@ body.page-template #cover h1 + p {
 body.home-template #navbar,
 body.archive-template #navbar,
 body.page-template #navbar {
-    padding: 26px 7px 20px; /* 60px(height) = 26 + 14 + 20 */  
+    padding: 26px 7px 13px;
 }
 
 /* post */
