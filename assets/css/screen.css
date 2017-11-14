@@ -588,6 +588,11 @@ for small screen(<720px):
     font-size:11px;
     text-align: left;
 }
+.home-template #post-list .post-info .comment-link {
+    display:inline-block;
+    height:15px;
+    line-height:15px;
+}
 
 #post-list .post-excerpt {
     margin-top: 11px;
