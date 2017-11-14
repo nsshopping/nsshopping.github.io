@@ -2,9 +2,6 @@
     <div class="item-wrap">
         <a href="{{ post.url }}">
             <h3 class="post-title">{{ post.title }}</h3>
-    {% if site.discus-identifier %}
-     <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
-    {% endif %}
             <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 75 }}</p>
         </a>
         <p class="post-tags">
@@ -22,7 +19,12 @@
                 </div>
                 <p class="author-name">{{ author.name }}</p>
             </a>
+        </div>
+        <div class="post-info">
             <p class="post-date">{{ post.date | date: '%Y-%m-%d %H:%M' }}</p>
+            {% if site.discus-identifier %}
+             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
+            {% endif %}
         </div>
         <!--<div class="clearfix"></div>-->
     </div>
