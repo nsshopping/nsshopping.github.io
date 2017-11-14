@@ -576,6 +576,7 @@ for small screen(<720px):
 
 .home-template #post-list .post-info {
     margin-top:8px;
+    padding-left:2px;
     font-size:11px;
     text-align: left;
 }
