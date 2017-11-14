@@ -1,6 +1,6 @@
 <li class="post-item post {{ post.post_class }}">
     <div class="item-wrap">
-        <a href="{{ post.url }}">
+        <a href="{{ post.url }}" class="link">
             <h3 class="post-title">{{ post.title }}</h3>
             <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 75 }}</p>
         </a>
@@ -10,6 +10,12 @@
                    class="tag tag-{{ tag }}">{{ tag }}</a>
             {% endfor %}
         </p>
+        <div class="post-info">
+            <p class="post-date">{{ post.date | date: '%Y-%m-%d %H:%M' }}</p>
+            {% if site.discus-identifier %}
+             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
+            {% endif %}
+        </div>
         <div class="post-meta">
             {% assign author = site.authors | where: 'name', post.author | first %}
             <a href="{{ site.baseurl }}/authors/{{ post.author }}">
@@ -19,12 +25,6 @@
                 </div>
                 <p class="author-name">{{ author.name }}</p>
             </a>
-        </div>
-        <div class="post-info">
-            <p class="post-date">{{ post.date | date: '%Y-%m-%d %H:%M' }}</p>
-            {% if site.discus-identifier %}
-             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
-            {% endif %}
         </div>
         <!--<div class="clearfix"></div>-->
     </div>
