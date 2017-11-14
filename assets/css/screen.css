@@ -58,7 +58,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .container {
-    max-width: 940px;
+    max-width: 954px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -798,8 +798,7 @@ body.page-template #cover h1 + p {
 body.home-template #navbar,
 body.archive-template #navbar,
 body.page-template #navbar {
-    padding-top: 26px; /* 60px(height) = 26 + 14 + 20 */
-    padding-bottom: 20px;
+    padding: 26px 7px 20px; /* 60px(height) = 26 + 14 + 20 */  
 }
 
 /* post */
