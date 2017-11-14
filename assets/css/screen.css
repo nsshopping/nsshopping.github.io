@@ -300,6 +300,7 @@ for small screen(<720px):
     padding-bottom: 50px;
     background-color: #f4f4f4;
     overflow-x: scroll; /* @@iolo for very long title/tags */
+    background: url(../images/bg_patten.png) repeat left top;
 }
 
 #back-to-top {
@@ -649,6 +650,7 @@ a.tag:hover {
     margin: 0;
     padding: 33px 0;
     text-align: center;
+    clear:both;
 }
 
 #pagination > li {
