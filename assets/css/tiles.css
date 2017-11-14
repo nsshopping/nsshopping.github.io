@@ -12,6 +12,5 @@
 .home-template #post-list {flex-wrap: wrap;display: -webkit-flex; display: flex;align-content: space-between;position:relative;}
 .home-template #post-list .post-item {overflow: hidden;width:224px;height: 280px;margin:0 14px 14px 0;padding: 21px 14px 10px;-webkit-box-shadow: 0 1px 1px #b9b9b9;-moz-box-shadow: 0 1px 1px #b9b9b9;box-shadow: 0 1px 1px #b9b9b9;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;background-color: #fff;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .home-template #post-list .post-item:nth-child(4n) {margin:0px;}
-.home-template #post-list .item-wrap {position:relative;height: 100%;}
-.home-template #post-list .post-meta {}
+.home-template #post-list .item-wrap {position:relative; height: 100%;}
 .home-template #post-list .item-wrap a {display: inline-block;}
