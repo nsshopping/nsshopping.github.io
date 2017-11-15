@@ -1254,7 +1254,7 @@ body.page-template {
     #search {
          display: none; /* @@iolo: show/hide by js */
         position: absolute;
-        top: 50px;
+        top: 45px;
         left: 0;
         width: 100%;
         background: #fff;
