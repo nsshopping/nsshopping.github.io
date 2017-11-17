@@ -3,7 +3,6 @@ layout: post
 title: 'GTM post'
 author: hawoong.yun
 date: 2017-11-17 17:16
-tags: [GTM][GA][ECOMMERCE]
 comments : true
 ---
 
