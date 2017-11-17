@@ -31,6 +31,7 @@ GTM 공식 사이트에서는
 ![GTM]({{ site.baseurl }}/files/covers/gtm-ga_measuring_purchases.png)
 
 
+
 라고 나타나 있습니다. 이해하기가 쉽지 않죠.
 
 하지만 자세히 살펴보면 필요한 정보는 모두 포함하고 있어요.
@@ -110,6 +111,7 @@ js에서 dataLayer라고 선언을 하게 되면 해당 dataLayer는 GTM에서 �
 
 ![trigerset]({{ site.baseurl }}/files/covers/trrigersetting.png)
 
+
 줄 쳐놓은 저 곳에는 '구매완료URL에반드시포함되는referrer중 하나.' 를 넣으시면 됩니다.
 
 여기까지 하셨다면 이제 js에서 데이터를 setting했으며 어떤 상황에서 그 데이터를 가져갈지 설정이 완료 되었어요.
@@ -117,6 +119,7 @@ js에서 dataLayer라고 선언을 하게 되면 해당 dataLayer는 GTM에서 �
 이제 trigger를 tag에 넣어서 GTM에서 GA로 보낼 수 있는 tag만 생성하면 끝입니다.
 
 ![tagset]({{ site.baseurl }}/files/covers/tagsetting.png)
+
 
 태그 setting까지 완료 되었습니다.
 
@@ -127,5 +130,6 @@ js에서 dataLayer라고 선언을 하게 되면 해당 dataLayer는 GTM에서 �
 gtm.dom tag가 실행되었는지,
 
 ![datalayerset]({{ site.baseurl }}/files/covers/ecommerce_dataLayer.png)
+
 
 해당 tag에 dataLayer가 정확히 setting되었는지 확인하시면 끝입니다.
