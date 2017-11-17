@@ -28,7 +28,7 @@ comments : true
 구매완료를 추적하기 위해 GTM에서 제시한 데이터 setting을 먼저 해볼까요?
 
 GTM 공식 사이트에서는
-![GTM]({{ site.baseurl }}/images/gtm-ga_measuring_purchases.png)
+![GTM](hawoong12.github.io/images/gtm-ga_measuring_purchases.png)
 
 
 라고 나타나 있습니다. 이해하기가 쉽지 않죠.
@@ -108,7 +108,7 @@ js에서 dataLayer라고 선언을 하게 되면 해당 dataLayer는 GTM에서 �
 
 다음은 trigger setting입니다.
 
-![trigerset](/images/trrigersetting.png)
+![trigerset](hawoong12.github.io/images/trrigersetting.png)
 
 줄 쳐놓은 저 곳에는 '구매완료URL에반드시포함되는referrer중 하나.' 를 넣으시면 됩니다.
 
@@ -116,16 +116,16 @@ js에서 dataLayer라고 선언을 하게 되면 해당 dataLayer는 GTM에서 �
 
 이제 trigger를 tag에 넣어서 GTM에서 GA로 보낼 수 있는 tag만 생성하면 끝입니다.
 
-![tagset]({{ site.baseurl }}/images/tagsetting.png)
+![tagset](hawoong12.github.io/images/tagsetting.png)
 
 태그 setting까지 완료 되었습니다.
 
 해당 사이트에 적용되었는지 확인하시려면 미리보기 버튼을 누르시고
 
-![domset]({{ site.baseurl }}/images/ecommerce_dom.png)
+![domset](hawoong12.github.io/images/ecommerce_dom.png)
 
 gtm.dom tag가 실행되었는지,
 
-![datalayerset]({{ site.baseurl }}/images/ecommerce_dataLayer.png)
+![datalayerset](hawoong12.github.io/images/ecommerce_dataLayer.png)
 
 해당 tag에 dataLayer가 정확히 setting되었는지 확인하시면 끝입니다.
