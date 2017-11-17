@@ -108,7 +108,7 @@ js에서 dataLayer라고 선언을 하게 되면 해당 dataLayer는 GTM에서 �
 
 다음은 trigger setting입니다.
 
-![trigerset]({{ site.baseurl }}/images/trrigersetting.png)
+![trigerset](/images/trrigersetting.png)
 
 줄 쳐놓은 저 곳에는 '구매완료URL에반드시포함되는referrer중 하나.' 를 넣으시면 됩니다.
 
