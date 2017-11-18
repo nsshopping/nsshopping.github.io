@@ -85,4 +85,5 @@
             closeOnContentClick: true
         });
     });
+   
 }(window, window.document, window.jQuery));
