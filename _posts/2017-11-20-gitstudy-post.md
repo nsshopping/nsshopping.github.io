@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "github 교육"
-author: kilsu.Shin
-date: "2017-11-20 11:20:13 +0900"
+title: "github 교육시 유용한 기본명령어"
+author: kilsu.shin
+date: "2017-11-20 14:20:13 +0900"
 tags: [github, study]
 comments : true
 ---
