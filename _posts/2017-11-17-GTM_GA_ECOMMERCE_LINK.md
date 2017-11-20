@@ -106,7 +106,7 @@ dataLayer 선언 후 <body>에서 선언을 해야합니다.
 
 js에서 dataLayer라고 선언을 하게 되면 해당 dataLayer는 GTM에서 해당 데이터를 읽어서 어떤 트리거와 TAG를 통해 GA로 보낼 것인지 준비를 합니다.
 
-다음은 trigger setting입니다. 
+다음은 trigger setting입니다.
 
 ![trigerset]({{ site.baseurl }}/files/covers/trrigersetting.png)
 
