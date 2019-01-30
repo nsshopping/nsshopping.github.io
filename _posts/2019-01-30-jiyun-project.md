@@ -7,16 +7,16 @@ tags: [study]
 comments : true
 ---
 
-#게시판 만들기 프로젝트
+# 게시판 만들기 프로젝트
 
 **프로젝트 개요**
-사용언어: Java 1.8
-프레임워크: Spring 3.9.3
-DB: MySQL 8.0
-서버 : Apache Tomcat 8.5
-빌드: Maven
-테스트: JUnit 4.12 
-ORM: Mybatis 3.4.6
+-사용언어: Java 1.8
+-프레임워크: Spring 3.9.3
+-DB: MySQL 8.0
+-서버 : Apache Tomcat 8.5
+-빌드: Maven
+-테스트: JUnit 4.12 
+-ORM: Mybatis 3.4.6
 
 **환경 설정**
 -Maven dependencies 추가 (pom.xml에 dependencies 추가)
@@ -46,13 +46,13 @@ ORM: Mybatis 3.4.6
    -글쓰기
    ![register](./img/register.png)
    
-   조회
+   -조회
    ![readPage](./img/readPage.png)
    
-   검색기능(제목, 내용, 글쓴이 keyword로 검색가능)
+   -검색기능(제목, 내용, 글쓴이 keyword로 검색가능)
    ![search](./img/search.png)
    
-   조회수 
+   -조회수 
    ![viewcount](./img/viewcount.png)
    
    
