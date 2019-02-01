@@ -1,59 +1,71 @@
 ---
 layout: post
-title: "1ì¸ í”„ë¡œì íŠ¸-ê²Œì‹œíŒ ë§Œë“¤ê¸°"
+title: "1ÀÎ ÇÁ·ÎÁ§Æ®: °Ô½ÃÆÇ ¸¸µé±â
 author: jiyun.kim
 date: "2019-01-30 14:07:00 +0900"
 tags: [study]
 comments : true
 ---
 
-# ê²Œì‹œíŒ ë§Œë“¤ê¸° í”„ë¡œì íŠ¸
+# °Ô½ÃÆÇ ¸¸µé±â ÇÁ·ÎÁ§Æ®
 
-**í”„ë¡œì íŠ¸ ê°œìš”**
--ì‚¬ìš©ì–¸ì–´: Java 1.8
--í”„ë ˆì„ì›Œí¬: Spring 3.9.3
--DB: MySQL 8.0
--ì„œë²„ : Apache Tomcat 8.5
--ë¹Œë“œ: Maven
--í…ŒìŠ¤íŠ¸: JUnit 4.12 
--ORM: Mybatis 3.4.6
+**ÇÁ·ÎÁ§Æ® °³¿ä**
+- »ç¿ë¾ğ¾î: Java 1.8  
+- ÇÁ·¹ÀÓ¿öÅ©: Spring 3.9.3  
+- DB: MySQL 8.0  
+- ¼­¹ö : Apache Tomcat 8.5  
+- ºôµå: Maven  
+- Å×½ºÆ®: JUnit 4.12   
 
-**í™˜ê²½ ì„¤ì •**
--Maven dependencies ì¶”ê°€ (pom.xmlì— dependencies ì¶”ê°€)
--MyBatisë¡œ MySQL ì—°ë™(root-context.xml íŒŒì¼ì— beans ì¶”ê°€), XML Mapperì— SQL ì €ì¥
+**ÇÁ·ÎÁ§Æ® °³¿ä**
+- °³¹ß ¾ğ¾î: Java 1.8
+- ÇÁ·¹ÀÓ¿öÅ©: Spring 3.9.3
+- DB: MySQL 8.0
+- ¼­¹ö:  Apache Tomcat 8.5
+- ºôµåÅø: Maven
+- Å×½ºÆ®: JUnit 4.12 
+- ORM: Mybatis 3.4.6
 
+**È¯°æ¼³Á¤**
+- Maven dependencies Ãß°¡ (pom.xml ÆÄÀÏ dependencies Ãß°¡)
+- MyBatis: MySQL ¿¬µ¿(root-context.xml ÆÄÀÏ ¼öÁ¤, beans Ãß°¡), XML Mapper¿¡ SQL ÀúÀå
 
-**í”„ë¡œì íŠ¸ ê²°ê³¼**
-1. DB í…Œì´ë¸”
-   -tbl_post(ê²Œì‹œë¬¼)
-   ![tbl_post](./img/tbl_post.png)
+**°Ô½ÃÆÇ ±¸Á¶, È­¸é**
+1. DB 
    
-   -tbl_user(ì‚¬ìš©ì)
-   ![tbl_user](./img/tbl_user.png)
+   - tbl_post (°Ô½Ã±Û Å×ÀÌºí)
+   ![tbl_post](/files/img/tbl_post.png)
+   
+   - tbl_user (À¯Àú Å×ÀÌºí)
+   ![tbl_user](/files/img/tbl_user.png)
   
   
-2. êµ¬í˜„ í™”ë©´
-   -ë©”ì¸í™”ë©´: í•˜ë‹¨ í˜ì´ì§• ì¶”ê°€, í˜ì´ì§€ ë‹¹ ê²Œì‹œë¬¼ 10ê°œë¡œ ì„¤ì •
-   ![list](./img/list.png)
-   ![paging](./img/paging.png)
+2. È­¸é
+   - °Ô½Ã¹° ¸®½ºÆ®, ÇÏ´Ü ÆäÀÌÂ¡
+   ![list](/files/img/list.png)
+   ![paging](/files/img/paging.png)
    
-   -íšŒì›ê°€ì…
-   ![signup](./img/signup.png)
+   - È¸¿ø°¡ÀÔ
    
-   -ë¡œê·¸ì¸
-   ![login](./img/login.png)
+   ![signup](/files/img/signup.png)
    
-   -ê¸€ì“°ê¸°
-   ![register](./img/register.png)
+   - ·Î±×ÀÎ
+   ![login](/files/img/login.png)
    
-   -ì¡°íšŒ
-   ![readPage](./img/readPage.png)
+   - ±Û¾²±â
+   ![register](/files/img/register.png)
    
-   -ê²€ìƒ‰ê¸°ëŠ¥(ì œëª©, ë‚´ìš©, ê¸€ì“´ì´ keywordë¡œ ê²€ìƒ‰ê°€ëŠ¥)
-   ![search](./img/search.png)
+   - Á¶È¸
+   ![readPage](/files/img/readPage.png)
+
+   - ±Û Á¶È¸
+   ![readPage](/files/img/readPage.png)
    
-   -ì¡°íšŒìˆ˜ 
-   ![viewcount](./img/viewcount.png)
+   - °Ë»ö±â´É(Á¦¸ñ, ±Û¾´ÀÌ, ³»¿ë keyword·Î °Ë»ö °¡´É)
+   ![search](/files/img/search.png)
+   
+   - Á¶È¸¼ö 
+   ![viewcount](/files/img/viewcount.png)
    
    
 
