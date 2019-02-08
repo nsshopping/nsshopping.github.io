@@ -1,57 +1,57 @@
 ---
 layout: post
-title: "1ÀÎ ÇÁ·ÎÁ§Æ®: °Ô½ÃÆÇ ¸¸µé±â"
+title: "1ì¸ í”„ë¡œì íŠ¸: ê²Œì‹œíŒ ë§Œë“¤ê¸°"
 author: jiyun.kim
 date: "2019-02-01 08:50:00 +0900"
 tags: [study]
 comments : true
 ---
 
-# °Ô½ÃÆÇ ¸¸µé±â ÇÁ·ÎÁ§Æ®
+# ê²Œì‹œíŒ ë§Œë“¤ê¸° í”„ë¡œì íŠ¸
 
-**ÇÁ·ÎÁ§Æ® °³¿ä**  
-- °³¹ß ¾ğ¾î: Java 1.8    
-- ÇÁ·¹ÀÓ¿öÅ©: Spring 3.9.3    
-- DB: MySQL 8.0   
-- ¼­¹ö:  Apache Tomcat 8.5    
-- ºôµåÅø: Maven    
-- Å×½ºÆ®: JUnit 4.12    
-- ORM: Mybatis 3.4.6    
+**í”„ë¡œì íŠ¸ ê°œìš”**  
+- ê°œë°œ ì–¸ì–´: Java 1.8
+- í”„ë ˆì„ì›Œí¬: Spring 3.9.3
+- DB: MySQL 8.0
+- ì„œë²„: Apache Tomcat 8.5
+- ë¹Œë“œíˆ´: Maven
+- í…ŒìŠ¤íŠ¸: JUnit 4.12
+- ORM: Mybatis 3.4.6
 
-**È¯°æ ¼³Á¤**  
-- Maven dependencies (pom.xml ÆÄÀÏ ¼öÁ¤)  
-- MyBatis (root-context.xml ÆÄÀÏ ¼öÁ¤, bean Ãß°¡, XML Mapper¿¡ SQL ÀúÀå)  
+**í™˜ê²½ ì„¤ì •**  
+- Maven dependencies (pom.xml íŒŒì¼ ìˆ˜ì •)  
+- MyBatis (root-context.xml íŒŒì¼ ìˆ˜ì •, bean ì¶”ê°€, XML Mapperì— SQL ì €ì¥)
 
-**±¸Çö °á°ú**  
-1. DB Å×ÀÌºí    
-   - tbl_post(°Ô½Ã¹°)  
+**êµ¬í˜„ ê²°ê³¼**  
+1. DB í…Œì´ë¸”   
+   - tbl_post(ê²Œì‹œë¬¼) 
    ![tbl_post](/files/img/tbl_post.png)  
    
-   - tbl_user(»ç¿ëÀÚ)  
+   - tbl_user(ì‚¬ìš©ì) 
    ![tbl_user](/files/img/tbl_user.png)  
   
   
-2. °á°ú¹° È­¸é  
-   - °Ô½Ã¹°(ÇÏ´Ü ÆäÀÌÂ¡, ÆäÀÌÁö ´ç ³ëÃâµÇ´Â °Ô½Ã¹° 10°³·Î ¼³Á¤)  
+2. ê²°ê³¼ë¬¼ í™”ë©´ 
+   - ê²Œì‹œë¬¼(í•˜ë‹¨ í˜ì´ì§•, í˜ì´ì§€ ë‹¹ ë…¸ì¶œë˜ëŠ” ê²Œì‹œë¬¼ 10ê°œë¡œ ì„¤ì •) 
    ![list](/files/img/list.png)    
    ![paging](/files/img/paging.png)    
    
-   - È¸¿ø°¡ÀÔ   
+   - íšŒì›ê°€ì… 
    ![signup](/files/img/signup.png)    
    
-   - ·Î±×ÀÎ       
+   - ë¡œê·¸ì¸    
    ![login](/files/img/login.png)  
    
-   - ±Û¾²±â  
+   - ê¸€ì“°ê¸°  
    ![register](/files/img/register.png)   
 
-   - °Ô½Ã±Û Á¶È¸  
+   - ê²Œì‹œê¸€ ì¡°íšŒ 
    ![readPage](/files/img/readPage.png)  
    
-   - °Ë»ö±â´É(Á¦¸ñ, ³»¿ë, ±Û¾´ÀÌ keyword·Î °Ë»ö°¡´É)    
+   - ê²€ìƒ‰ê¸°ëŠ¥(ì œëª©, ë‚´ìš©, ê¸€ì“´ì´ keywordë¡œ ê²€ìƒ‰ê°€ëŠ¥)    
    ![search](/files/img/search.png)  
    
-   - Á¶È¸¼ö 
+   - ì¡°íšŒìˆ˜
    ![viewcount](/files/img/viewcount.png)
    
    
